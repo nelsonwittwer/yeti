@@ -593,40 +593,6 @@ nav#menu #menu-nav li.sfHover ul a:hover {
 }
 
 /* ==================================================
-   Arrow Tip
-================================================== */
-
-.arrow {
-    border-bottom: 20px solid #FFFFFF;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    bottom: 0;
-    left: 50%;
-  margin-left: -20px;
-    position: absolute;
-}
-
-.arrow-down {
-    border-top: 20px solid #FFFFFF;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    top: 0;
-    left: 50%;
-  margin-left: -20px;
-    position: absolute;
-}
-
-.arrow-port {
-    border-top: 20px solid #FFFFFF;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    bottom: -20px;
-    left: 50%;
-  margin-left: -20px;
-    position: absolute;
-}
-
-/* ==================================================
    Slider
 ================================================== */
 
@@ -685,8 +651,16 @@ nav#menu #menu-nav li.sfHover ul a:hover {
 
 #pricing{
   text-align:center;
+  margin-bottom:60px;
 }
 
+/* ==================================================
+   FAQ
+================================================== */
+
+.faq{
+  text-align:left;
+}
 /* ==================================================
    Image Static
 ================================================== */

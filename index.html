@@ -24,21 +24,12 @@
 <!-- Bootstrap -->
 <link href="_include/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Revolution Slider -->
-<link href="_include/rs-plugin/css/settings.css" rel="stylesheet">
-
 <!-- Main Style -->
 <link href="_include/css/main.css" rel="stylesheet">
-
-<!-- FancyBox -->
-<link href="_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
 
 <!-- Font Icons -->
 <link href="_include/css/fonts.css" rel="stylesheet">
 <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-
-<!-- Shortcodes -->
-<link href="_include/css/shortcodes.css" rel="stylesheet">
 
 <!-- Responsive -->
 <link href="_include/css/responsive.css" rel="stylesheet">
@@ -69,13 +60,13 @@
 <header>
   <div class="container">
     <div class="row">
-      <div class="span2">
+      <div class="span3">
         <div id="logo">
-          <a href="index.html" title="Anubis">Anubis</a>
+          <a href="index.html" title="Yeti Billing">Yeti Billing</a>
         </div>
       </div>
 
-      <div class="span10">
+      <div class="span9">
         <!-- Mobile Menu -->
         <a id="mobile-nav" class="menu-nav" href="#menu-nav"><span class="menu-icon"></span></a>
 
@@ -97,8 +88,13 @@
 <div class="fullwidthbanner-container">
   <div class="fullwidthbanner">
     <div class="row">
-      <div class="span5 offset5">
+      <div class="span5 offset7">
         <h1>Never Miss Another Customer Payment</h1>
+        <div class="row">
+          <div class="span5">
+            <a class="button-main inverted button-large" href="#">Large</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -235,48 +231,49 @@
 </section>
 <!-- End Latest Works -->
 
-<section id="faq">
-  <div class="container">
+<section id="latest-work">
+  <span class="arrow-down"></span>
+  <span class="arrow"></span>
+  <div class="faq container">
     <div class="row">
       <div class="span9 offset1">
-        <h2>Questions</h2>
+        <h2>Frequent Questions</h2>
           <div class="row">
-            <div class="span9 offset1">
+            <div class="span9">
               <h3>How Do I Get Paid?</h3>
               <p>
-                We send out payments every Monday. This will only include transactions that have been cleared. If a transaction
-                has not yet been cleared by a card provider, it will have to wait until the next week.
+                We typically send payments out the day after your scheduled bill date via direct deposit
+                to your bank account.
               </p>
             </div>
           </div>
           <div class="row">
-            <div class="span9 offset1">
+            <div class="span9">
               <h3>When Do My Customers Get Billed?</h3>
               <p>
-                We will start the billing process two days after the scheduled event. This gives you ample amount of time to
-                let us know if there was a change in plan.
+                When you sign up, you'll choose a monthly bill date and we'll automatically bill your customers on that date.
               </p>
             </div>
           </div>
           <div class="row">
-            <div class="span9 offset1">
+            <div class="span9">
               <h3>What if I Don't Want to Charge for an Appointment?</h3>
               <p>
                 Not a problem. You'll be able to cancel individual or recurring scheduled payments with a click of a button.
+                We'll make sure to notify your customers of the cancelation as well.
               </p>
             </div>
           </div>
           <div class="row">
-            <div class="span9 offset1">
+            <div class="span9">
               <h3>Can I Modify the Recurring Payment Amount?</h3>
               <p>
-                Sure thing. We'll just need to have your customer agree to the change before they are billed to make sure 
-                you are both on the same page.
+                Absolutely! We'll notify your customer of the change as well, so we are all on the same page.
               </p>
             </div>
           </div>
           <div class="row">
-            <div class="span9 offset1">
+            <div class="span9">
               <h3>How Will my Customer's Get Notified of the Charge?</h3>
               <p>
                 After we charge a card, we'll send you and your customer an email letting them know the details of the transaction.
@@ -284,16 +281,15 @@
             </div>
           </div>
           <div class="row">
-            <div class="span9 offset1">
+            <div class="span9">
               <h3>Does Yeti Only Work With Recurring Payments?</h3>
               <p>
-                At the initial release, we will only cover recurring payments. If there is enough demand for it, we will build
-                individual payments later down the road.
+                Yes, but stay tuned for individual payments in the future.
               </p>
             </div>
           </div>
           <div class="row">
-            <div class="span9 offset1">
+            <div class="span9">
               <h3>What About American Express and International Cards?</h3>
               <p>
                 Not a problem for our pet Yeti. Bring 'em on!
@@ -301,7 +297,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="span9 offset1">
+            <div class="span9">
               <h3>Is there a fee for charge backs?</h3>
               <p>
                 Yes, if your customer contacts their card provider and tell them your charge is bogus, you will charged $20 per
@@ -310,15 +306,17 @@
             </div>
           </div>
           <div class="row">
-            <div class="span9 offset1">
+            <div class="span9">
               <h3>What About Refunds?</h3>
               <p>
                 If your customer asks for a refund, we'll send them the money back. No additional charge.
+                You'll need to issue the refund within a 90 day window, however. Refunds should be visible to your
+                customer anywhere between 1-7 business days.
               </p>
             </div>
           </div>
           <div class="row">
-            <div class="span9 offset1">
+            <div class="span9">
               <h3>Do I get Charged for a Declined Payment?</h3>
               <p>
                 Nope. Yeti doesn't roll that way. We'll even email your customer telling them their card was denied and ask them to
@@ -327,7 +325,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="span9 offset1">
+            <div class="span9">
               <h3>How Secure is This?</h3>
               <p>
                 At Yeti Billing, we take security very seriously. The technolgy to process billing has been audited by a PCI-certified
