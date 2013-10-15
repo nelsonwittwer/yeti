@@ -2158,14 +2158,16 @@ nav#menu #menu-nav li.sfHover ul a:hover {
   position: relative;
   background-color: #E9F0F4;
   padding: 80px 0 90px;
+  text-align:center;
 }
 
-#latest-work h3 {
-  font-size: 14px;
-  font-weight: 700;
-  margin: 0 0 40px;
-  text-transform: uppercase;
-  text-align: center;
+#latest-work h2 {
+  margin-bottom:50px;
+}
+
+#latest-work h4 {
+  font-size:150%;
+  padding-bottom:20%;
 }
 
 #latest-work-thumbs {
@@ -2178,6 +2180,11 @@ nav#menu #menu-nav li.sfHover ul a:hover {
   margin-bottom: 30px;  
 }
 
+#latest-work img{
+  max-width:25%;
+  padding-left:6%;
+  padding-bottom:5%;
+}
 .work-item-thumbs {
   position: relative;
   overflow: hidden; 
