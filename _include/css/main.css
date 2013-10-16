@@ -629,6 +629,20 @@ nav#menu #menu-nav li.sfHover ul a:hover {
   overflow: hidden;
 }
 
+#fullwidthbanner input{
+  -webkit-appearance: none;
+}
+
+/* ==================================================
+   Call to Action
+================================================== */
+#call-to-action h2{
+  margin-top:70px;
+}
+
+#call-to-action .button{
+  margin-bottom:70px;
+}
 /* ==================================================
    Pricing
 ================================================== */
